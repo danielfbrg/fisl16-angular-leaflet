@@ -1,25 +1,24 @@
-<html>
+<html ng-app='myApp'>
 <head>
     <meta charset='UTF-8'/>
-    <title>Aplicação Angular</title>
+    <title>AngularJS + Leaflet na prática</title>
     <link rel="stylesheet" type="text/css" href="assets/css/map.css">
+
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
     <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js'></script>
+    <script type="text/javascript" src='app/controllers/map.js'></script>
 </head>
-<body>
+<body ng-controller="MapController as mapCtrl">
+
+    <p>Digite as coordenadas do ponto:</p>
+    <input type='text' placeholder="Lat" ng-model='lat' ng-change='changePoint()'/>
+    <input type='text' placeholder="Lng" ng-model='lng' ng-change='changePoint()' />
+    <br/>
+
     <div id='map'></div>
 
-    <script type="text/javascript">
-        var map = L.map('map').setView([-30.034102019390673, -51.2052583694458], 13);
-
-        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-
-        var marker = L.marker([-30.0577843,-52.1732458]).addTo(map)
-        .bindPopup('<strong>Evento:</strong> FISL 16. <br> <strong>Local:</strong> PUCRS')
-        .openPopup();
-
-    </script>
 </body>
 </html>
