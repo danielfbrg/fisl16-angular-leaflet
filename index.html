@@ -6,14 +6,24 @@
 
     <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
 
 </head>
 <body ng-controller="MapController as mapCtrl">
 
-    <p>Digite as coordenadas do ponto:</p>
-    <input type='text' placeholder="Lat" ng-model='lat' ng-change='changePoint()'/>
-    <input type='text' placeholder="Lng" ng-model='lng' ng-change='changePoint()' />
-    <br/>
+    <md-toolbar>
+        <md-container layout-padding layout='row'>
+            <div style='max-width: 10em'>
+                <!-- <label>Latitude</label> -->
+                <input type='text' placeholder="Latitude" ng-model='lat' ng-change='changePoint()' class='form-control'/>
+            </div> /
+            <div style='max-width: 10em'>
+                <!-- <label>Longitude</label> -->
+                <input type='text' placeholder="Longitude" ng-model='lng' ng-change='changePoint()' class='form-control'/>
+            </div>
+        </md-container>
+    </md-toolbar>
+
 
     <map></map>
 
@@ -21,5 +31,12 @@
     <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js'></script>
     <script type="text/javascript" src='app/controllers/map.js'></script>
     <script type="text/javascript" src='app/directives/map.js'></script>
+
+    <!-- Libraries to angular material design -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script> 
+
 </body>
 </html>

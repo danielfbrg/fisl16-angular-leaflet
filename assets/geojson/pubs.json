@@ -1,0 +1,775 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2015-07-06T14:42:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/189252283",
+      "properties": {
+        "@id": "way/189252283",
+        "addr:housenumber": "1468",
+        "addr:postcode": "91900-000",
+        "addr:street": "Avenida Wenceslau Escobar",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Mulligan Irish Pub Zona Sul",
+        "phone": "+55 51 30198859",
+        "website": "http://www.mulligan.com.br"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.2506611,
+              -30.1025282
+            ],
+            [
+              -51.250734,
+              -30.1026238
+            ],
+            [
+              -51.2505115,
+              -30.102751
+            ],
+            [
+              -51.2504385,
+              -30.1026555
+            ],
+            [
+              -51.2506611,
+              -30.1025282
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/202958695",
+      "properties": {
+        "@id": "way/202958695",
+        "addr:housenumber": "397",
+        "addr:postcode": "90050-340",
+        "addr:street": "Rua Joaquim Nabuco",
+        "amenity": "pub",
+        "building": "yes",
+        "gay": "yes",
+        "name": "Venezianos Pub Café",
+        "opening_hours": "Tu-Sa 20:00-04:00",
+        "phone": "+55 51 32219275",
+        "website": "http://www.venezianos.com.br"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.2224208,
+              -30.0424419
+            ],
+            [
+              -51.2224975,
+              -30.042322
+            ],
+            [
+              -51.2225446,
+              -30.0423475
+            ],
+            [
+              -51.2224634,
+              -30.0424619
+            ],
+            [
+              -51.2224208,
+              -30.0424419
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/203018989",
+      "properties": {
+        "@id": "way/203018989",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Boteco Natalicio Paseo Zona Sul",
+        "phone": "+55 51 30848400",
+        "website": "http://www.boteconatalicio.com.br"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.2540683,
+              -30.1048058
+            ],
+            [
+              -51.2540327,
+              -30.1048928
+            ],
+            [
+              -51.2539555,
+              -30.1048668
+            ],
+            [
+              -51.2539514,
+              -30.1047779
+            ],
+            [
+              -51.2540157,
+              -30.1047792
+            ],
+            [
+              -51.2540683,
+              -30.1048058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/203018990",
+      "properties": {
+        "@id": "way/203018990",
+        "amenity": "pub",
+        "building": "yes",
+        "cuisine": "german",
+        "name": "Boteco Tirol Paseo",
+        "opening_hours": "Mo-Fr 11:00-15:00,18:00-00:00; Sa-Su 11:00-00:00",
+        "phone": "+55 51 30847727",
+        "website": "http://botecotirol.com.br"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.2537809,
+              -30.1044404
+            ],
+            [
+              -51.2540676,
+              -30.1045373
+            ],
+            [
+              -51.2540314,
+              -30.1046157
+            ],
+            [
+              -51.2540191,
+              -30.1046119
+            ],
+            [
+              -51.2539181,
+              -30.104677
+            ],
+            [
+              -51.2537809,
+              -30.1044404
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/214434321",
+      "properties": {
+        "@id": "way/214434321",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Salão de Festas"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.2577498,
+              -30.0969504
+            ],
+            [
+              -51.2576433,
+              -30.0970024
+            ],
+            [
+              -51.2575716,
+              -30.0971579
+            ],
+            [
+              -51.2574124,
+              -30.0972355
+            ],
+            [
+              -51.2572279,
+              -30.0969522
+            ],
+            [
+              -51.2576249,
+              -30.0967586
+            ],
+            [
+              -51.2576546,
+              -30.0968042
+            ],
+            [
+              -51.2577498,
+              -30.0969504
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/225165439",
+      "properties": {
+        "@id": "way/225165439",
+        "addr:city": "Porto Alegre",
+        "addr:housenumber": "956",
+        "addr:postcode": "90050-103",
+        "addr:street": "Rua General Lima e Silva",
+        "addr:suburb": "Cidade Baixa",
+        "amenity": "pub",
+        "building": "yes",
+        "email": "info@dirtyoldman.com.br",
+        "name": "Dirty Old Man Cocktail Pub",
+        "opening_hours": "Tu-Su 19:00-00:00",
+        "phone": "+55 51 30858227",
+        "website": "http://www.dirtyoldman.com.br"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.2186859,
+              -30.0405841
+            ],
+            [
+              -51.2186624,
+              -30.040622
+            ],
+            [
+              -51.2185992,
+              -30.0405926
+            ],
+            [
+              -51.2186228,
+              -30.0405547
+            ],
+            [
+              -51.2186859,
+              -30.0405841
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/235910432",
+      "properties": {
+        "@id": "way/235910432",
+        "amenity": "pub",
+        "building": "yes",
+        "leisure": "dance",
+        "name": "Divina Comédia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.2258081,
+              -30.0398275
+            ],
+            [
+              -51.2259131,
+              -30.0399114
+            ],
+            [
+              -51.2257438,
+              -30.0400721
+            ],
+            [
+              -51.2256436,
+              -30.0399924
+            ],
+            [
+              -51.2258081,
+              -30.0398275
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/235910435",
+      "properties": {
+        "@id": "way/235910435",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Pinacoteca"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.2240778,
+              -30.0385081
+            ],
+            [
+              -51.2238686,
+              -30.0387461
+            ],
+            [
+              -51.2238177,
+              -30.0387101
+            ],
+            [
+              -51.2240309,
+              -30.0384733
+            ],
+            [
+              -51.2240778,
+              -30.0385081
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/258819204",
+      "properties": {
+        "@id": "way/258819204",
+        "addr:city": "Porto Alegre",
+        "addr:housenumber": "32",
+        "addr:postcode": "90040-320",
+        "addr:street": "Rua Vieira de Castro",
+        "amenity": "pub",
+        "building": "yes",
+        "email": "contato@shamrockpub.com.br",
+        "name": "Shamrock Irish Pub",
+        "opening_hours": "Tu-Th 18:00-02:00; Fr 18:00-04:00; Sa 19:00-04:00",
+        "phone": "+55 51 33289299",
+        "start_date": "2002",
+        "website": "http://www.shamrockpub.com.br/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.2125381,
+              -30.0381703
+            ],
+            [
+              -51.2123888,
+              -30.038081
+            ],
+            [
+              -51.2124306,
+              -30.0380287
+            ],
+            [
+              -51.2125798,
+              -30.038118
+            ],
+            [
+              -51.2125381,
+              -30.0381703
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/261306516",
+      "properties": {
+        "@id": "way/261306516",
+        "addr:housenumber": "27",
+        "addr:street": "Rua Tenente Coronel Fabricio Pilar",
+        "amenity": "pub",
+        "building": "yes",
+        "email": "contato@valentinabar.com.br",
+        "name": "Valentina Bar18+",
+        "opening_hours": "We-Sa 19:00-00:00",
+        "phone": "+55 51 21128575",
+        "website": "http://www.valentinabar.com.br/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.197337,
+              -30.0263658
+            ],
+            [
+              -51.197306,
+              -30.02651
+            ],
+            [
+              -51.1972229,
+              -30.0264967
+            ],
+            [
+              -51.1972539,
+              -30.0263524
+            ],
+            [
+              -51.197337,
+              -30.0263658
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/830674249",
+      "properties": {
+        "@id": "node/830674249",
+        "addr:housenumber": "1107",
+        "addr:street": "Avenida João Pessoa",
+        "amenity": "pub",
+        "old_name": "Pub Cine Avenida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2166323,
+          -30.0411511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/851518082",
+      "properties": {
+        "@id": "node/851518082",
+        "addr:street": "Rua General Lima e Silva",
+        "amenity": "pub",
+        "name": "Parangolé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2242619,
+          -30.0360124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/851518144",
+      "properties": {
+        "@id": "node/851518144",
+        "addr:street": "Rua General Lima e Silva",
+        "amenity": "pub",
+        "name": "Copão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2236851,
+          -30.0364531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1277685173",
+      "properties": {
+        "@id": "node/1277685173",
+        "addr:street": "Rua General Lima e Silva",
+        "amenity": "pub",
+        "name": "Beverly Hills"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2235499,
+          -30.036505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1398645753",
+      "properties": {
+        "@id": "node/1398645753",
+        "amenity": "pub",
+        "name": "Pinguim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.222184,
+          -30.0379151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1661701590",
+      "properties": {
+        "@id": "node/1661701590",
+        "addr:housenumber": "342",
+        "addr:street": "Rua Padre Chagas",
+        "amenity": "pub",
+        "name": "Dublin Irish Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2024486,
+          -30.0241299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1661701595",
+      "properties": {
+        "@id": "node/1661701595",
+        "addr:city": "Porto Alegre",
+        "addr:housenumber": "330",
+        "addr:street": "Rua Padre Chagas",
+        "amenity": "pub",
+        "name": "Thomas Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2025996,
+          -30.0242283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1661703403",
+      "properties": {
+        "@id": "node/1661703403",
+        "amenity": "pub",
+        "name": "Mulligan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2048742,
+          -30.0263462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2129780384",
+      "properties": {
+        "@id": "node/2129780384",
+        "amenity": "pub",
+        "fixme": "Informacoes corretas? Pode ser confundido com o Mulligan na Av Wenceslau Escobar 1468.",
+        "name": "Mulligan Irish Pub Paseo",
+        "phone": "+55 51 30198859",
+        "website": "http://www.mulligan.com.br"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2549114,
+          -30.1049037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2566339017",
+      "properties": {
+        "@id": "node/2566339017",
+        "addr:city": "Porto Alegre",
+        "addr:housenumber": "1052",
+        "addr:postcode": "90050-103",
+        "addr:street": "Rua General Lima e Silva",
+        "amenity": "pub",
+        "name": "Mulligan Irish Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2180141,
+          -30.0414681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2600809743",
+      "properties": {
+        "@id": "node/2600809743",
+        "addr:housenumber": "118",
+        "addr:street": "Rua Angelo Dourado",
+        "amenity": "pub",
+        "fixme": "Local exato?",
+        "name": "Fábrica da Lagom",
+        "website": "http://www.lagom.com.br/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1741813,
+          -29.9787469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2669384120",
+      "properties": {
+        "@id": "node/2669384120",
+        "addr:housenumber": "442",
+        "addr:street": "Rua Castro Alves",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "microbrewery": "yes",
+        "name": "Biermarkt",
+        "opening_hours": "Mo-Sa 18:00-23:30",
+        "phone": "+55 51 30132300",
+        "website": "http://www.biermarkt.com.br/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2062364,
+          -30.0305703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2669384143",
+      "properties": {
+        "@id": "node/2669384143",
+        "addr:housenumber": "422",
+        "addr:street": "Rua Castro Alves",
+        "amenity": "pub",
+        "email": "contato@lolabar.com.br",
+        "name": "Lola Bar de Tapas",
+        "opening_hours": "Mo-Sa 18:00-23:00",
+        "phone": "+55 51 35570004",
+        "start_date": "2012",
+        "website": "http://www.lolabar.com.br/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.206425,
+          -30.0305337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3108273676",
+      "properties": {
+        "@id": "node/3108273676",
+        "amenity": "pub",
+        "name": "Tuyuty Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2313677,
+          -30.0317644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3108273680",
+      "properties": {
+        "@id": "node/3108273680",
+        "amenity": "pub",
+        "name": "Champanharia Ovelha Negra",
+        "website": "http://www.champanhariaovelhanegra.com.br/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2343402,
+          -30.0336759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3108273685",
+      "properties": {
+        "@id": "node/3108273685",
+        "amenity": "pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2354467,
+          -30.0340786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3108273695",
+      "properties": {
+        "@id": "node/3108273695",
+        "amenity": "pub",
+        "brewery": "Heineken",
+        "name": "Natalício"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2272291,
+          -30.0358053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3242590447",
+      "properties": {
+        "@id": "node/3242590447",
+        "addr:housenumber": "1202",
+        "addr:postcode": "92310-200",
+        "addr:street": "Rua Doutor Barcelos",
+        "amenity": "pub",
+        "brewery": "various",
+        "contact:phone": "+55 51 3477-2477",
+        "contact:website": "http://www.marquesbier.com.br/",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Marquês Bier",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1841449,
+          -29.9217428
+        ]
+      }
+    }
+  ]
+}
