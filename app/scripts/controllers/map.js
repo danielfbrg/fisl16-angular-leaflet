@@ -1,42 +1,40 @@
-var app = angular.module('myApp', [])
+angular.module('myApp', ['thematicMap'])
+.controller('MapController', function($scope, $http,getColor, style, highlightFeature) {
 
-.controller('MapController', function($scope, $http) {
-
+    //Getting geojson simplified of Brazil
     $http.get('assets/geojson/brazil-states-simplified.geojson').
     success(function(data, event){
-        var layer = L.geoJson(data, {
+        $scope.brasil = L.geoJson(data, {
             style: style,
-            onEachFeature: function (feature, layer) {
-                layer.bindPopup(feature.properties.sigla);
-        }
-    }).addTo($scope.map);
+            onEachFeature: onEachFeature
+        }).addTo($scope.map);
 
-    $scope.map.fitBounds(layer.getBounds());
-
+        $scope.map.fitBounds($scope.brasil.getBounds());
+        $scope.control.addOverlay($scope.brasil, 'Brasil');
     }).
     error(function(data, event){
         console.log('Error getting json');
     })
 
-
-    function getColor(regiao) {
-        return regiao == 'NORDESTE'     ? '#FC4E2A' :
-               regiao == 'NORTE'        ? '#009933' :
-               regiao == 'SUDESTE'      ? '#E31A1C' :
-               regiao == 'SUL'          ? '#0066FF' :
-               regiao == 'CENTRO-OESTE' ? '#FFCC00' :
-                                          '#FFEDA0';
+    /*Function that reset the feature when mouse over
+    called on onEachFeature -> layer.on({mouseout})*/
+    function resetHighlight(e) {
+        $scope.brasil.resetStyle(e.target);
     }
 
-    function style(feature) {
-        return {
-            fillColor: getColor(feature.properties.regiao),
-            weight: 2,
-            opacity: 1,
-            color: 'white',
-            dashArray: '3',
-            fillOpacity: 0.7
-        };
+    /*Function that zoom map on selected feature
+    called on onEachFeature -> layer.on({click})*/
+    function zoomToFeature(e) {
+        $scope.map.fitBounds(e.target.getBounds());
     }
+
+    function onEachFeature(feature, layer) {
+        layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+            click: zoomToFeature
+        });
+    }
+
 
 });
