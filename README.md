@@ -3,7 +3,7 @@
 
 ## Descrição da palestra:
 Atualmente, existem várias aplicações de mapas disponíveis no mercado. Você já se perguntou como elas funcionam? Que tal construir sua própria aplicação utilizando
-tecnologias em ascensão? A proposta dessa palestra é mostrar na prática como desenvolver mapas interativos utilizando o framework AngularJS e a biblioteca Leaflet, trazendo a facilidade de escrita, modularização e manutenção, além de várias funcionalidades para manipulação de seus dados.
+tecnologias em ascensão? A proposta dessa palestra é mostrar na prática como desenvolver mapas interativos utilizando o framework AngularJS e a biblioteca Leaflet, trazendo a facilidade de escrita, modularização e manutenção, além de várias funcionalidades para manipulação dos seus dados.
 
 ## Link para a página oficial do Leaflet:
 http://leafletjs.com/
